@@ -1,0 +1,64 @@
+.slide-up{
+    animation: slideup 1s ease-in 0s 1 forwards;
+}
+
+@keyframes slideup{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-110vh);
+    }
+}
+
+
+
+.bounce{
+    animation: bounce .5s ease 0s infinite alternate;
+}
+
+.bounce:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes bounce {
+    from{
+        transform: translateY(3px);
+    }
+    to{
+        transform: translateY(-6px);
+    }
+}
+
+.title-shrink{
+    animation: title 3s ease-in-out 1 forwards;
+    animation-delay: .5s;
+}
+
+@keyframes title{
+    from{
+        transform: translateY(45vh) scale(2);
+    } to {
+        transform: translateY(0) scale(1);
+    }
+}
+/*
+#and-or{
+    animation: unflip .5s ease  1 backwards;
+}*/
+
+.flip{
+    animation: flipped .5s ease 1 forwards;
+}
+
+.unflip{
+    animation: flipped .5s ease 1 backwards;
+}
+
+@keyframes flipped {
+    from{transform: rotate(0);}
+    to {
+        transform: rotate(180deg);
+    }
+}
