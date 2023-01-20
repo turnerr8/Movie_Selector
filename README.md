@@ -4,6 +4,8 @@
 For my final project, I decided to use the [TMDb](https://developers.themoviedb.org/3/getting-started/introduction) api to select two random movies for the user
 based on user input criteria. I wanted to keep the layout simple and work on my ui/ux design as well as functionality
 
+## [Link](https://turnerr8.github.io/Movie_Selector/) 
+
 ## Future Improvements
 - [ ] better restart system
 - [ ] Links to actual movie
